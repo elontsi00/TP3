@@ -15,10 +15,10 @@ void Galerie::ajouterPeinture(const Peinture& peinture)
     peintures_.push_back(peinture);
 }
 
-void Galerie::retirerPeinture(const std::string& titre)
+/*void Galerie::retirerPeinture(const std::string& titre)
 {
 
-}
+}*/
 void Galerie::exposerPeinture(const std::string& titre)
 {
     for (auto& peinture : peintures_) {
